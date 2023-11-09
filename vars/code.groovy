@@ -12,3 +12,5 @@ def buildTriggeredBy(Build) {
     return User.get(userId).getProperty(UserProperty).getAddress()
   }
 }
+
+println "triggeredBy: ${triggeredBy}"
